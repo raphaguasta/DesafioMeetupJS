@@ -1,0 +1,31 @@
+html {
+    font-family: Arial;
+    background-color: #f3f3f3;
+}
+
+header {
+    text-align: center;
+    color: #2f2f2f;
+}
+
+.box {
+    will-change: height;
+    width: 40%;
+    min-width: 300px;
+    height: 100px;
+    margin: 10px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    background-color: tomato;
+    cursor: pointer;
+    transition: height .2s ease-out;
+}
+
+.box:nth-child(even) {
+    background-color: rebeccapurple;
+}
